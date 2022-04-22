@@ -39,7 +39,7 @@
         "react/jsx-props-no-spreading": "off",
         "linebreak-style": "off",
         "eol-last": "off",
-        "max-len": ["warn", { "code": 80 }],
+        "max-len": ["warn", { "code": 80, "ignorePattern": "^import .*" }],
         "import/extensions": ["error", "never", { "svg": "always" }],
         "prettier/prettier": [
             "error",

@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import validateAttempt from '../core/use-cases/validate-attempt';
+import validateAttempt from '../../core/use-cases/game/validate-attempt';
 
 describe('Validate attempt use-case', () => {
     const referenceWord = 'diplodocus';

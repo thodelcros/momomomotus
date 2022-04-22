@@ -1,5 +1,5 @@
-import Attempt from '../models/attempt';
-import { Letter } from '../models/letter';
+import Attempt from '../../models/attempt';
+import Letter from '../../models/letter';
 
 const checkFirstLetter = (
     referenceWord: string,
